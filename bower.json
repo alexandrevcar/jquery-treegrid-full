@@ -1,10 +1,10 @@
 {
-  "name": "jquery-treegrid",
-  "homepage": "https://github.com/dkhlystov/jquery-treegrid",
+  "name": "jquery-treegrid-full",
+  "homepage": "https://github.com/alexandrevcar/jquery-treegrid-full",
   "authors": [
-    "Dmitry Khlystov <dkhlystov@gmail.com>"
+    "Alexandre Vieria <alexandrevieiradecarvalho@gmail.com>"
   ],
-  "description": "TreeGrid plugin for jQuery, supported data manipulating.",
+  "description": "TreeGrid Full plugin for jQuery, supported data manipulating.",
   "main": [
     "./dist/js/treegrid.jquery.js",
     "./dist/css/treegrid.jquery.css"
