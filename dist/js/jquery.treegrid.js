@@ -90,7 +90,7 @@
 			var finded = false;
 			this.find('>tbody>tr').each(function () {
 
-				$(this).removeClass("search");
+				$(this).removeClass("treegrid-search");
 				$(this).toggle(false);
 				if (_getChildNodes($(this)).length > 0) {
 					_collapse($(this));
@@ -103,14 +103,14 @@
 					}
 					_parentExpander($(this));
 					finded = true;
-					$(this).addClass("search");
+					$(this).addClass("treegrid-search");
 				}
 			});
 
 			if (!finded) {
 				this.find('>tbody>tr').each(function () {
 					$(this).toggle(true);
-					$(this).removeClass("search");
+					$(this).removeClass("treegrid-search");
 				});
 				this.find('>tbody>tr').each(function () {
 					if (_getChildNodes($(this)).length > 0) {
