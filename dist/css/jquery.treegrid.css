@@ -51,3 +51,7 @@ tr.loading>td>.treegrid-container>.treegrid-expander::after {
 	margin-left: 0 !important;
 	position: absolute;
 }
+.treegrid-search {
+        color: #FF0000;
+        font-weight: bold;
+}
